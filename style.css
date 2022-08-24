@@ -166,37 +166,6 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
-@media (max-width: 900px){
-    .menu-icon{
-        display: none;
-    }
-    .sidebar{
-        display: none;
-    }
-    .container, .large-container{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-    .nav-right img{
-        display: none;
-    }
-    .nav-right .user-icon{
-        display: block;
-        width: 40px;
-    }
-    .nav-middle .search-box input{
-        width: 105px;
-    }
-    .nav-middle .mic-icon{
-        display: none;
-    }
-    .nav-left .logo{
-        width: 100px;
-    }
-    .container .banner img{
-        height: 107px;
-    }
-}
 
 /* ------------------ play video page ---------------- */
 .play-container{
@@ -364,7 +333,36 @@ nav{
 .old-comment .comment-action a{
     color: #0000ff;
 }
-@media (max-width: 900){
+@media (max-width: 900px){
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 40px;
+    }
+    .nav-middle .search-box input{
+        width: 105px;
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .nav-left .logo{
+        width: 100px;
+    }
+    .container .banner img{
+        height: 107px;
+    }
     .play-video{
         flex-basis: 100%;
     }
