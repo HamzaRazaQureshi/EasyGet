@@ -166,7 +166,7 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
-@media (max-width: 450px){
+/* @media (max-width: 350px){
     .menu-icon{
         display: none;
     }
@@ -185,7 +185,7 @@ nav{
         width: 30px;
     }
     .nav-middle .search-box input{
-        width: 180px;
+        width: 10px;
     }
     .nav-middle .mic-icon{
         display: none;
@@ -193,7 +193,7 @@ nav{
     .nav-left .logo{
         width: 90px;
     }
-}
+} */
 @media (max-width: 900px){
     .menu-icon{
         display: none;
@@ -213,12 +213,15 @@ nav{
         width: 40px;
     }
     .nav-middle .search-box input{
-        width: 190px;
+        width: 105px;
     }
     .nav-middle .mic-icon{
         display: none;
     }
     .nav-left .logo{
         width: 100px;
+    }
+    .container .banner img{
+        height: 107px;
     }
 }
